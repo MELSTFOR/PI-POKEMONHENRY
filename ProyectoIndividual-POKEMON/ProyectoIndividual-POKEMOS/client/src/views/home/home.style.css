@@ -1,0 +1,19 @@
+.Home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  height: 250%;
+  width: 150%;
+  margin: 0; /* Elimina los márgenes predeterminados */
+  padding: 0; /* Elimina los rellenos predeterminados */
+  background: url("PokemonHome.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}

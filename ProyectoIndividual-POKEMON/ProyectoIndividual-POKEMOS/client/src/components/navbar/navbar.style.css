@@ -1,0 +1,42 @@
+.navbar {
+  background-color: rgba(51, 51, 51, 0.7);
+  background-position: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente en la pantalla */
+  align-items: center;
+  padding: 50px 0 10px; /* Ajusta el padding para centrar verticalmente */
+  z-index: 1; /* Asegura que la Navbar esté en la capa superior */
+}
+
+.navbar input,
+.navbar select,
+.navbar button {
+  margin: -30px 10px 0;
+}
+
+.navbar-banner {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  max-width: 50%;
+  max-height: 50%;
+}
+/* Agrega estilos al botón de Limpiar Filtros */
+.clear-filters-button {
+  background-color: white; /* Fondo blanco */
+  color: #333; /* Color de texto (puede ser cualquier color legible) */
+  border: 1px solid #ccc; /* Borde con color gris claro */
+  padding: 8px 16px; /* Espaciado interno */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Estilos adicionales cuando se pasa el mouse sobre el botón */
+.clear-filters-button:hover {
+  background-color: #ccc; /* Cambia el fondo al pasar el mouse */
+}

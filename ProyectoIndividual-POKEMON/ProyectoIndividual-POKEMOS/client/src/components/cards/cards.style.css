@@ -1,0 +1,28 @@
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 650px;
+}
+
+.card-list {
+  width: 85vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+  z-index: 0;
+  margin: 0 auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Ajusta el margen superior para separar las tarjetas de la paginación */
+}
+
+/* Estilos para el botón activo */
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+}

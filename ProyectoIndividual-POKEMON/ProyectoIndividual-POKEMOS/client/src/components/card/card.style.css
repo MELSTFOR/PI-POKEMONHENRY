@@ -1,0 +1,22 @@
+.card {
+  background-color: rgba(131, 1, 120, 0.8);
+  border: 2px solid #0f0e0e;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.05); /* Efecto de escala en el hover */
+}
+.enlaceSinSubrayado {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card img {
+  max-width: 150px;
+}

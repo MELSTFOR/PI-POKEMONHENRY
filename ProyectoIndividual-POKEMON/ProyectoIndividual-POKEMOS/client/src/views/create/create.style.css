@@ -1,0 +1,93 @@
+.imgCreate {
+  height: 125vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: url("createpokeimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Create-Title {
+  text-align: center;
+  font-size: 60px;
+  color: #56053f;
+  font-family: "Press Start 2P", cursive;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px rgb(255, 255, 4);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  letter-spacing: 6px;
+}
+
+.game-form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.game-form {
+  background: rgba(66, 65, 66, 0.648); /* Color de fondo con transparencia */
+  padding: 10px;
+  border: 4px solid #f1c503;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+.game-form .form-group {
+  margin-left: 10px; /* Ajusta este valor según la separación deseada */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  color: #fbfbfb;
+  font-weight: bold;
+  display: block;
+  margin-left: -270px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid rgb(105, 2, 105);
+  border-radius: 8px;
+  background: #444;
+  color: #fff;
+  margin-left: 8px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ffcc00;
+  box-shadow: 0 0 5px #ffcc00;
+}
+
+button {
+  background: rgb(105, 2, 105);
+  color: rgb(193, 193, 184);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: grey;
+}
+
+.error {
+  color: white;
+  font-style: oblique;
+}

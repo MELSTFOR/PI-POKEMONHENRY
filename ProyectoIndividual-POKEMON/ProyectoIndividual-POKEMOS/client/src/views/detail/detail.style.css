@@ -1,0 +1,49 @@
+.Detail {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #520252, #000000);
+  display: grid;
+  grid-template-columns: 1fr 200px; /* Divide la pantalla en dos columnas, la primera ocupando el espacio restante y la segunda de 200px de ancho para la imagen */
+  grid-gap: 20px; /* Espacio entre las dos columnas */
+  align-items: center;
+}
+
+.VectorImage {
+  width: 150px;
+  height: 200px;
+  background-image: url("PokeDetail.png");
+  background-size: cover;
+  background-position: right bottom;
+  margin-left: 15px;
+}
+.DetailInfo {
+  display: grid;
+  grid-template-columns: 1fr 200px; /* Divide .DetailInfo en dos columnas */
+  grid-gap: 20px; /* Espacio entre las dos columnas */
+  padding: 20px; /* Espaciado interno para las etiquetas p */
+  background: #313130; /* Fondo blanco con opacidad */
+  border-radius: 20px; /* Bordes redondeados */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  border: 5px solid white;
+  color: white;
+}
+
+.DetailInfo .text-column {
+  grid-column: 1; /* Coloca las etiquetas <p> en la primera columna */
+}
+
+.imagendetail {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente la imagen */
+  align-items: center; /* Centra verticalmente la imagen */
+}
+.VectorImage:hover {
+  transform: scale(1.05); /* Efecto de escala en el hover */
+}
+
+.imagendetail img {
+  width: 400px; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: 400px; /* Asegura que la imagen no supere la altura del contenedor */
+  margin-right: 600px;
+}
